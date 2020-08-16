@@ -1,0 +1,3 @@
+To jest wiadomość
+do odczytania
+przez Pythona

@@ -26,6 +26,16 @@ driver.find_element_by_tag_name("a")
 driver.find_element_by_tag_name("p")
 # driver.find_element_by_tag_name("div") #brak tagu div na stronie testowej
 
+driver.find_element_by_css_selector("a")
+driver.find_element_by_css_selector("img#smileImage")
+driver.find_element_by_css_selector("p.topSecret")
+
+print(driver.find_element_by_css_selector("td:first-child").text)
+print(driver.find_element_by_css_selector("th:first-child").text)
+print(driver.find_element_by_css_selector("input[type=password]:nth-child(5)").get_property("value"))
+
+
+
 
 
 driver.quit()
